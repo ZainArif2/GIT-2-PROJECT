@@ -1,0 +1,313 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.hero1{
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)), url(../images/t1.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+   
+    
+}
+a .navbar-brand {
+    margin: 0%;
+    padding: 0%;
+}
+
+.text-box1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+    padding-left: 10px;
+}
+.text-box1 p{
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-weight: 600;
+        padding-left: 10px;
+
+}
+.text-box1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    padding-left: 10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../images/Animation.jpg.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@media only screen and (max-width: 1024px) {
+    .text-box1 h1{
+        font-size: 18vw;
+        line-height: 160px;
+        margin-left: -10px;
+        padding-left: 2px;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        background: url(images1/back.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
+  }
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+}    
+}
+
+
+.text-box1 h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  .navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    color: transparent;
+    width: 0%;
+    content: '.';
+    height: 3px;
+  }
+  .navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+  }
+
+/* gallery cards */
+#gallery{
+    /* background-color: rgba(20, 1, 41, 0.925); */
+    /* background-color: black; */
+}
+.card-1{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+
+}
+.card-1 .cardbody {
+    padding: 50px ;
+    text-align: center;
+    
+    }
+
+
+
+/* restuarent */
+
+.card{
+    background: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translatey(-10px);
+}
+/* Entertainment */
+.card-2{
+    background: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.card-2:hover{
+    transform: translatey(-10px);
+}
+
+#parahome{
+text-align: justify;
+margin: 5px;
+padding: auto;
+}
+/* Ticket and price */
+#cardhome1{
+  
+    
+    background: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+#cardhome1:hover{
+    transform: translatey(-10px);
+}
+#cardhomem1{
+  
+    background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+#cardhomem1:hover{
+    transform: translatey(-10px);
+}
+
+.jumbotron{
+    background-image: url(jj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-attachment: fixed;
+}
+.Trendy{
+     margin-top: 100px;
+    color: black;
+    box-sizing: border-box;
+}
+.Trendyp{
+    color: gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer{
+    background: black;
+}
+.header{
+    background: black;
+}
+.btn{
+    background-color:black;
+    padding-top: 5px;
+    margin-top: 35px;
+}
+
+.card-title
+{
+    color: black;
+}
+/* <!-- Certified by --> */
+.certified{
+    padding: 100px;
+}
+.certified .col-3{
+        text-align: center;
+        margin: 50px;
+        padding: 40px 20px;
+    }
+    .certified .col-3 img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    .certified .col-3 p{
+    margin-top: 0px;
+    text-align: center;
+}
+.certified .col-3 h3{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container6{
+    height: 300px;
+    width: 640px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: 1px solid #2d3436;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.container6 .text {
+    font-size: 15px;
+    color: #fff;
+}
+.container6 .star-widget input{
+    display: none;
+
+}
+.star-widget label{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    padding: 5px;
+    float: right;
+    transition: all 0.2s ease;
+}
+input:not(:checked) ~label:hover,
+input:not(:checked) ~label:hover{
+    color: yellow;
+}
+input:checked ~ label{
+    color: yellow;
+    text-shadow: 0 0 20px rgb(220, 223, 58);
+}
+input#rate-5:checked ~ label{
+    color: yellow;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+}
+#rate-1:checked ~ form header:before{
+content: "I Hate It";
+}
+#rate-2:checked ~ form header:before{
+    content: "I Don't Like It";
+    }
+    #rate-3:checked ~ form header:before{
+        content: "It Is Awesome";
+        }
+        #rate-4:checked ~ form header:before{
+            content: "I Just Like It";
+            }
+            #rate-5:checked ~ form header:before{
+                content: "I Just Love It";
+                }
+                .container6 form{
+                    display: none;
+                }
+                input:checked ~ form{
+                    display: block;
+                }
+form header{
+    width: 100%;
+    font-size: 25px;
+    color: yellow;
+    font-weight: 500;
+margin: 5px 0 10px 0;
+text-align: center;
+transition: all 0.2s ease;
+}
+
+
